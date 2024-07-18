@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #EBE1E1;
+    color: #212529;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.image1 img {
+    height: 260px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+.img1{
+    box-shadow: 2px 2px 50px black;
+}
+
+.bio h1 {
+    color: #02027B;
+    font-size: 2em;
+    margin: 20px 0 10px;
+}
+
+.p1 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.p2 {
+    font-size: 1.2em;
+    max-width: 600px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 767px), only screen and (max-height: 550px) {
+    .bio h1 {
+        font-size: 1.5em;
+    }
+
+    .p1 {
+        font-size: 1.2em;
+    }
+
+    .p2 {
+        font-size: 1em;
+        padding: 0 20px;
+    }
+}
+hr{
+    text-decoration: dotted;
+    color: red;
+    width: 20%;
+    margin-top: 2rem;
+    border-top-color: #b52580;
+    border-top-style: dotted;
+    border-top-width: .4rem;
+}
+
+.portfolio h1 {
+    margin-top: 36px;
+    color: #02027B;
+  }
+  
+  .calc,
+  .web {
+    margin-top: 20px;
+  }
+  .img2:hover
+  {
+    height: 210px;
+    width: 210px;
+  }
+  
+  .img2 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 30px black;
+  }
+  
+  a.a1 {
+    text-decoration: none;
+    border-style: none;
+    color: white;
+  }
+  
+  .des {
+    font-size: larger;
+    margin-top: 21px;
+  }
+  
+  .heading {
+    margin-top: 20px;
+  }
+  
+  .btn2 {
+    height: 35px;
+    width: 98px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  .btn1{
+    height: 35px;
+    width: 98px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px
+  }
+  
+  hr.hr2 {
+    text-decoration: dotted;
+    color: red;
+    width: 20%;
+    margin-top: 2rem;
+    border-top-color: #b52580;
+    border-top-style: dotted;
+    border-top-width: 0.4rem; 
+  }
+  
+  
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  .project-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    margin: 20px 0; 
+  }
+  
+  @media (max-width: 768px) {
+    
+    .project-container {
+      flex-direction: column; 
+    }
+  
+    .calc,
+    .web {
+      margin: 10px 0; 
+    }
+  }
+.skills h1 {
+    color: #02027B;
+    text-align: center; 
+  }
+  
+  button {
+    height: 35px;
+    width: 90px; 
+    margin: 10px 5px; 
+    text-align: center;
+    background-color: #2164ad;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer; 
+  }
+  
+  ul li {
+    list-style: none;
+    margin: 15px 0; 
+    display: flex; 
+    align-items: center; 
+  }
+  
+  li i {
+    margin-right: 10px; 
+    color: #2164ad; 
+  }  
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; 
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin: 10px auto; 
+  }
+  
+  @media (max-width: 768px) {
+        .skills-container {
+      flex-direction: column; 
+    }
+    li {
+      font-size: 14px; 
+    }
+  }
+  .career h1{
+    color: #02027B;
+    text-align: center;
+  }
+  .pc1{
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  .pc2{
+    margin-top: 6px;
+    font-size: 20px;
+  }
+  .pc3{
+    text-align: center;
+    margin-top: 10px;
+  }
+  .pe1{
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 14px;
+  }
+  .pe2{
+    margin-top: 6px;
+    font-size: 20px;
+  }
+  .pe3{
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 14px;
+  }
+  .pe4{
+    margin-top: 6px;
+    font-size: 20px;
+  }
+p a{
+    text-decoration: none;
+    color: #2164ad;;
+}  
+.mail{
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 14px;    
+  }
+  .linkedin{
+    margin-top: 15px;
+    font-size: larger;
+    font-weight: bold;
+  }
+  .copy{
+    margin-top: 40px;
+    color: rgb(74, 71, 71);
+    font-size: 10px;
+  }
